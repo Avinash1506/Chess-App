@@ -1,0 +1,28 @@
+.square {
+    width: 64px;
+    height: 64px;
+    border: 1px solid black;
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+}
+
+.ele1 {
+    display: inline-block;
+    background-color: #00b3ff;
+    opacity: 0.5;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    z-index: 1000;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.ele2 {
+    position: absolute; 
+    top: 30%;
+    left: 30%;
+    width: 24px;
+}

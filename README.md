@@ -1,0 +1,1 @@
+This is 2 player chess application where users need to create and account first and then they can search for the friends based on their names and then they can start a game and play with each other in real time.

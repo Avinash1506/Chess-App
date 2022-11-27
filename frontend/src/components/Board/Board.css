@@ -1,0 +1,52 @@
+.board {
+    width: 642px;
+    height: 514px;
+    /* margin: auto; */
+}
+
+.rowDiv {
+    height: 64px;
+}
+
+.numberHeight {
+    height: 16px;
+    margin-bottom: 8px;
+}
+
+.squareRow {
+    width: 64px;
+    height: 16px;
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.squareCol {
+    width: 64px;
+    height: 64px;
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+}
+
+.innerDivRightAlign {
+    position: absolute; 
+    top: 30%;
+    right: 0;
+    width: 24px;
+    text-align: center;
+}
+
+.innerDivLeftAlign {
+    position: absolute; 
+    top: 30%;
+    left: 0;
+    width: 24px;
+    text-align: center;
+}
+
+.container {
+    margin-left: 0px;
+    margin-left: 0px;
+}

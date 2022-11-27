@@ -1,0 +1,122 @@
+.img {
+    height: 512px;
+    width: 512px;
+    /* position:  sticky;
+    top: 0; */
+}
+
+video {
+    width: 600px;
+    /* border-radius: 0 50% 50% 0; */
+    height: 256px;
+    border: 1px solid #ced4da;
+}
+
+.video {
+    /* border-radius: 0 50% 50% 0; */
+    height: 256px;
+    /* border: 1px solid black; */
+    /* border-radius: 0 50% 50% 0; */
+}
+
+
+.margbtm {
+    margin-bottom: 6rem;
+}
+
+.border-circular-right {
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border: 1px solid black;
+    height: 400px;
+    /* position: relative; */
+}
+
+.arrow_box_right {
+	position: relative;
+	/* background: #ffffff; */
+	border: 1px solid #ced4da;
+    height: 400px;
+    width: 80%;
+}
+
+.arrow_box_right:after, .arrow_box_right:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box_right:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-left-color: #fafdff;
+	border-width: 200px;
+	margin-top: -200px;
+}
+.arrow_box_right:before {
+	border-color: rgba(0, 0, 0, 0);
+	border-left-color: #ced4da;
+	border-width: 201px;
+	margin-top: -201px;
+}
+
+.arrow_box_left {
+	position: relative;
+	/* background: #ffffff; */
+	border: 1px solid #ced4da;
+    height: 400px;
+    width: 80%;
+    margin-left: auto;
+    /* text-align: right; */
+    /* margin-left: 96px; */
+}
+
+.arrow_box_left:after, .arrow_box_left:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box_left:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-right-color: #fafdff;
+	border-width: 200px;
+	margin-top: -200px;
+}
+
+.arrow_box_left:before {
+	border-color: rgba(0, 0, 0, 0);
+	border-right-color: #ced4da;
+	border-width: 201px;
+	margin-top: -201px;
+}
+
+/* 
+.head {
+    border:1px solid black;
+    margin-bottom: 6rem;
+    transform: translateY()
+} */
+/* .border-circular-right:after {
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border: 1px solid black;
+    height: 400px;
+    transform: rotate(5deg);
+} */
+
+.border-circular-left {
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border: 1px solid black;
+    height: 400px;
+}
